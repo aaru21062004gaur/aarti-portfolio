@@ -8,7 +8,7 @@ export default function Works() {
     <div className="page">
       <div className="works-page-header">
         <h1 className="page-title">Works</h1>
-        <p className="page-subtitle">UI/UX projects — 2024</p>
+        <p className="page-subtitle">UI/UX projects</p>
       </div>
 
       <div className="works-full-list">

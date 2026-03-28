@@ -8,7 +8,7 @@ export default function Home() {
     <div className="page">
       <section className="hero">
         <div className="hero-left">
-          <p className="hero-tag">UI/UX Designer — Portfolio 2024</p>
+          <p className="hero-tag">UI/UX Designer — Portfolio</p>
           <h1 className="hero-name">
             Aarti<br />
             <em>Gaur</em>

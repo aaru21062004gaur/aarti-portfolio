@@ -4,7 +4,7 @@ import '../styles/Footer.css';
 export default function Footer() {
   return (
     <footer className="footer">
-      <span className="footer-copy">© 2024 Aarti Gaur</span>
+      <span className="footer-copy">© Aarti Gaur</span>
       <div className="footer-links">
         <a
           href="https://www.linkedin.com/in/aarti-gaur-ab910836b/"
