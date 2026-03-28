@@ -11,7 +11,7 @@ function App() {
   return (
     <Router basename="/aarti-portfolio/">
       <Navigation />
-      <main style={{ paddingTop: 'var(--nav-h, 64px)' }}>
+      <main style={{ paddingTop: '64px' }}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/works" element={<Works />} />
