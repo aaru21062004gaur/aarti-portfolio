@@ -62,7 +62,7 @@ export default function Contact() {
               <span className="contact-label">LinkedIn</span>
               <span className="contact-value">
                 <a
-                  href="https://www.linkedin.com/in/aarti-gaur-ab910836b/details/skills/"
+                  href="https://www.linkedin.com/in/aarti-gaur-ab910836b/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

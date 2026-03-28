@@ -7,7 +7,7 @@ export default function Footer() {
       <span className="footer-copy">© 2024 Aarti Gaur</span>
       <div className="footer-links">
         <a
-          href="https://www.linkedin.com/in/aarti-gaur-ab910836b/details/skills/"
+          href="https://www.linkedin.com/in/aarti-gaur-ab910836b/"
           target="_blank"
           rel="noopener noreferrer"
           className="footer-link"

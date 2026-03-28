@@ -66,7 +66,7 @@ export default function About() {
 
           <a
             className="linkedin-btn"
-            href="https://www.linkedin.com/in/aarti-gaur-ab910836b/details/skills/"
+            href="https://www.linkedin.com/in/aarti-gaur-ab910836b/"
             target="_blank"
             rel="noopener noreferrer"
           >
