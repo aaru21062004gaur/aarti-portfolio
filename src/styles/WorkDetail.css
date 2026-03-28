@@ -1,0 +1,150 @@
+/* ─────────────── WORK DETAIL ─────────────── */
+.work-detail-header {
+  padding: 80px var(--pad) 48px;
+  border-bottom: 1px solid var(--border);
+}
+
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  cursor: pointer;
+  margin-bottom: 40px;
+  background: none;
+  border: none;
+  font-family: var(--mono);
+  transition: color 0.2s;
+  padding: 0;
+}
+
+.back-btn:hover {
+  color: var(--fg);
+}
+
+.work-detail-title {
+  font-family: var(--serif);
+  font-size: clamp(36px, 5.5vw, 72px);
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  margin-bottom: 20px;
+}
+
+.work-tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  border: 1px solid var(--border);
+  padding: 5px 12px;
+  color: var(--muted);
+}
+
+.detail-hero {
+  width: 100%;
+  background: #e0dcd4;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px clamp(16px, 4vw, 60px);
+  min-height: 260px;
+}
+
+.detail-hero img {
+  width: auto;
+  max-width: 100%;
+  max-height: clamp(320px, 55vw, 600px);
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.detail-body {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.detail-sidebar {
+  padding: 48px var(--pad);
+  border-right: 1px solid var(--border);
+}
+
+.detail-content {
+  padding: 48px var(--pad);
+}
+
+.meta-item {
+  margin-bottom: 28px;
+}
+
+.meta-label {
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+
+.meta-value {
+  font-size: 13px;
+}
+
+.detail-desc {
+  font-family: var(--serif);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.7;
+  color: var(--muted);
+  margin-bottom: 28px;
+}
+
+.detail-text {
+  font-size: 13px;
+  line-height: 1.9;
+}
+
+.detail-text p {
+  margin-bottom: 18px;
+}
+
+.figma-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  background: var(--fg);
+  color: var(--bg);
+  text-decoration: none;
+  padding: 14px 28px;
+  margin-top: 24px;
+  transition: all 0.25s;
+  cursor: pointer;
+}
+
+.figma-link:hover {
+  background: var(--accent);
+  gap: 16px;
+}
+
+@media (max-width: 900px) {
+  .detail-body {
+    grid-template-columns: 1fr;
+  }
+
+  .detail-sidebar {
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+  }
+}

@@ -1,0 +1,131 @@
+/* ─────────────── ABOUT ─────────────── */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: calc(100vh - var(--nav-h));
+}
+
+.about-left {
+  padding: var(--pad);
+  padding-top: 80px;
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+}
+
+.about-portrait {
+  width: 100%;
+  flex: 1;
+  margin-top: 32px;
+  overflow: hidden;
+  max-height: 560px;
+  border: 1px solid var(--border);
+}
+
+.about-portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  filter: grayscale(10%);
+  display: block;
+}
+
+.about-right {
+  padding: var(--pad);
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.about-intro {
+  font-family: var(--serif);
+  font-size: clamp(22px, 2.8vw, 36px);
+  font-weight: 300;
+  line-height: 1.45;
+  letter-spacing: -0.01em;
+}
+
+.about-intro em {
+  font-style: italic;
+  color: var(--muted);
+}
+
+.about-bio {
+  color: var(--muted);
+  line-height: 1.9;
+}
+
+.about-bio p {
+  margin-bottom: 16px;
+}
+
+.skills-section {
+}
+
+.skill-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.skill-name {
+  font-size: 12px;
+}
+
+.skill-dots {
+  display: flex;
+  gap: 4px;
+}
+
+.dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--border);
+}
+
+.dot.on {
+  background: var(--fg);
+}
+
+.linkedin-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--fg);
+  text-decoration: none;
+  border: 1px solid var(--border);
+  padding: 12px 20px;
+  transition: all 0.2s;
+  width: fit-content;
+  cursor: pointer;
+  background: none;
+}
+
+.linkedin-btn:hover {
+  border-color: var(--fg);
+  background: var(--fg);
+  color: var(--bg);
+}
+
+@media (max-width: 900px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-left {
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .about-portrait {
+    max-height: 320px;
+  }
+}
