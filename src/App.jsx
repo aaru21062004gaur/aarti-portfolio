@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/aarti-portfolio/">
       <Navigation />
       <main style={{ paddingTop: 'var(--nav-h, 64px)' }}>
         <Routes>
